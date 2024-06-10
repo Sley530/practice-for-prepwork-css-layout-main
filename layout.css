@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+fieldset{
+    margin: 2em 0;
+    border: solid 1px #ccc;
+    padding: 1em 2em;
+    min-width: 200px;
+    border-radius: 6px;
+}
+
+legend{
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: #999;
+    text-align: left;
+}
+
+label{
+    display: block;
+    margin-top: 1em;
+}
+
+input{
+    padding: .5em;
+    border: solid 1px #999;
+}
+
+textarea{
+    padding: .5em;
+    border: solid 1px #999;
+}
+
+.checks{
+    margin-bottom: 1em;
+}
+
+.checks p{
+    margin-bottom: 0;
+    padding-top: 1em;
+}
+
+input[type="radio"] + label{
+    display: inline-block;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+input[type="radio"]:first-of-type{
+    margin-left: 0;
+}
+
+.dates{
+    display: inline-block;
+    
+}
