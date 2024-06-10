@@ -1,3 +1,18 @@
+.test{
+    border: 1px solid red;
+}
+
+select, option{
+height: 40px;
+}
+
+.form{
+    max-width: 250px;
+    margin: auto;
+
+}
+
+
 fieldset{
 
     font-family: Arial, Helvetica, sans-serif;
@@ -10,6 +25,23 @@ legend{
     border: 2px solid gray;
     text-align: left;
 }
-.test{
-    border: 1px solid red;
+
+.switch{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    flex-basis: 50%;
+
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
 }
