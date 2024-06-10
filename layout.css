@@ -64,10 +64,10 @@ input[type="checkbox"] + label{
 
 .dates{
     display: flex;
-    border: 1px solid #000;
     margin-left: 15px;
     justify-content: space-evenly;
-    padding;
+    padding-left: 20%;
+    padding-right: 25%;
 
 
 
