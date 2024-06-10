@@ -68,11 +68,20 @@ input[type="checkbox"] + label{
     justify-content: space-evenly;
     padding-left: 20%;
     padding-right: 25%;
-
-
-
 }
 
 select{
     padding: 7px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+button{
+    padding: 10px;
+    border-color:#999;
+    border-radius: 5px;
 }
