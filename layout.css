@@ -62,6 +62,7 @@ input[type="checkbox"] + label{
     width: 150px;
 }
 
+/* Status and Date */
 .dates{
     display: flex;
     margin-left: 15px;
